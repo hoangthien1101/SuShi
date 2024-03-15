@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+
+    <title>Sushi</title>
+</head>
+<body>
+    <header class="header" id="header">
+       <nav class="nav container">
+        <a href="#" class="nav__logo">
+            <img src="assets/img/logo-sushi.png" alt="logo image">
+            Sushi
+        </a>
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#home" class="nav__link active-link">Home</a>
+                </li>
+                
+                <li class="nav__item">
+                    <a href="#about" class="nav__link">About us</a>
+                </li>
+                
+                <li class="nav__item">
+                    <a href="#popular" class="nav__link">Popular</a>
+                </li>
+                
+                <li class="nav__item">
+                    <a href="#recently" class="nav__link">Recently</a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#services" class="nav__link">Services</a>
+                </li>
+                
+                <li class="nav__item">
+                    <a href="#portfolio" class="nav__link">Portfolio</a>
+                </li>
+                
+            </ul>
+
+            <!-- Close button -->
+             <div class="nav__close" id="nav-close">
+                <i class="ri-close-line"></i>
+             </div>
+
+             <img src="assets/img/japanese-icon-sushi-3d-illustration.png" alt="nav image" class="nav__img-1">
+             <img src="assets/img/sushi-3d-illustration-icon.png" alt="nav image" class="nav__img-2">
+        </div>
+
+        <div class="nav__buttons">
+            <!-- theme change button -->
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+            <!-- toggle button -->
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-apps-2-line"></i>
+            </div>
+        </div>
+       </nav> 
+    </header>
+
+    <main class="main">
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <img src="assets/img/home-sushi-rolls.png" alt="home image" class="home__img">
+                <div class="home__data">
+                    <h1 class="home__title">
+                        Enjoy Delicious
+
+                       <div>
+                            <img src="assets/img/sushi-title.png" alt="home image">
+                            Sushi Food
+                        </div> 
+                    </h1>
+
+                    <p class="home__description">
+                        Enjoy a good dinner with the best dishes in restaurant and improve your day.
+                        
+                    </p>
+                        <a href="cart/cart.html" class="button">
+                            Order Now <i class="ri-arrow-right-line"></i>
+                        </a>
+                </div>
+            </div>
+
+            <img src="assets/img/sushi-leaf-2.png" alt="home image" class="home__leaf-1">
+            <img src="assets/img/sushi-leaf-2.png" alt="home image" class="home__leaf-2">
+        </section>
+
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <span class="section__subtitle">About Us</span>
+                    <h2 class="section__title about__title">
+                        <div>
+                            We Provide
+                            <img src="assets/img/sushi.png" alt="about image">
+                        </div>
+
+                        Healthy Food
+                    </h2>
+
+                    <p class="about__description">
+                        Food comes to us from our relatives, whether they have
+                        wings or roots. This is how we consider food, it also has
+                        culture . It has a history that passes from generation to generation.
+                    </p>
+                </div>
+                
+                <img src="assets/img/sushi-5.png" alt="about image" class="about__img">
+            </div>
+            <img src="assets/img/sushi-leaf-2.png" alt="about image" class="about__leaf">
+        </section>
+        
+        <section class="popular section" id="popular">
+            <span class="section__subtitle">The Best Food</span>
+            <h2 class="section__title">Popular Dishes</h2>
+
+            <div class="popular__container container grid">
+                <article class="popular__card">
+                    <img src="assets/img/sushi-3.png" alt="popular image" class="popular__img">
+                    
+                    <h3 class="popular__name">Onigiri</h3>
+                    <span class="popular__description">Japanese Dish</span>
+
+                    <span class="popular__price">$9.99</span>
+
+                    <a href="cart/cart.html">
+                    <button class="popular__button">
+                            <i class="ri-handbag-line"></i>
+                            
+                        </button>
+                    </a>
+                </article>
+                <article class="popular__card">
+                    <img src="assets/img/sushi-1.png" alt="popular image" class="popular__img">
+                    
+                    <h3 class="popular__name">Spring Rolls</h3>
+                    <span class="popular__description">Japanese Dish</span>
+
+                    <span class="popular__price">$14.99</span>
+                    <a href="cart/cart.html">
+
+                        <button class="popular__button">
+                            <i class="ri-handbag-line"></i>
+                        </button>
+                    </a>
+                </article>
+                <article class="popular__card">
+                    <img src="assets/img/sushi-roll.png" alt="popular image" class="popular__img">
+                    
+                    <h3 class="popular__name">Spring Rolls</h3>
+                    <span class="popular__description">Japanese Dish</span>
+
+                    <span class="popular__price">$19.99</span>
+                    <a href="cart/cart.html">
+
+                        <button class="popular__button">
+                            <i class="ri-handbag-line"></i>
+                        </button>
+                    </a>
+                </article>
+            </div>
+        </section>
+                    <!--===========RECENTLY=============-->
+        <section class="recently section" id="recently">
+            <div class="recently__container container grid">
+                <div class="recently__data">
+                    <span class="section__subtitle">Recently Added</span>
+                    <h2 class="section__title">
+                        Sushi Samurai <br>
+                        Salmón Cheese
+                    </h2>
+
+                    <p class="recently__description">
+                        Take a look at what's new. And do not deprive
+                        yourself of a good meal, enjoy and be happy.
+                    </p>
+
+                    <a href="cart/cart.html" class="button">
+                        Order Now <i class="ri-arrow-right-line"></i>
+                    </a>
+
+                    <img src="assets/img/spinach-leaf.png" alt="recently image" class="recently__data-img">
+                </div>
+
+                <img src="assets/img/sushi-4.png" alt="recently image" class="recently__img">
+            </div>
+
+            <img src="assets/img/sushi-3d-illustration-icon.png" alt="recently image" class="recently__leaf-1">
+            <img src="assets/img/sushi-3d-illustration-icon.png" alt="recently image" class="recently__leaf-2">
+        </section>
+
+                    <!--==========SERVICES=========-->
+        <section class="services section" id="services">
+            <h2 class="section__title">Services</h2>
+            <span class="section__subtitle">What i offer</span>
+
+            <div class="services__container container grid">
+                <!--==========SERVICES 1==========-->
+                <div class="services__content">
+                    <div>
+                        <i class="ri-ancient-gate-line services__icon"></i>
+                        <h3 class="services__title">Branch <br> Restaurant</h3>
+                    </div>
+                    
+                    <span class="button--flex button--small button--link services__button">
+                        View more 
+                        <i class="ri-arrow-right-line button__icon"></i>
+                    </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">Branch <br> Restaurant</h4>
+                                <i class="ri-close-line services__modal-close"></i>
+
+                                <ul class="services__modal-services grid">
+                                    <li class="services__modal-service">
+                                        <i class="ri-pushpin-line services__modal-icon"></i>
+                                        <p>Three regions all Japan.</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="ri-pushpin-line services__modal-icon"></i>
+                                        <p>Quiet, cool, clean space.                                            .</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="ri-pushpin-line services__modal-icon"></i>
+                                        <p>Traditional style & a bit modern.</p>
+                                    </li>
+                                   
+                                </ul>
+                            </div>
+                        </div>
+                </div>
+
+                <!--==========SERVICES 2==========-->
+                <div class="services__content">
+                    <div>
+                        <i class="ri-takeaway-line services__icon"></i>
+                        <h3 class="services__title">Shipper <br> Restaurant</h3>
+                    </div>
+                    
+                    <span class="button--flex button--small button--link services__button">
+                        View more 
+                        <i class="ri-arrow-right-line button__icon"></i>
+                    </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">Shipper <br> Restaurant</h4>
+                                <i class="ri-close-line services__modal-close"></i>
+
+                                <ul class="services__modal-services grid">
+                                    <li class="services__modal-service">
+                                        <i class="ri-gift-line services__modal-icon"></i>
+                                        <p>Fast, careful, delivery to the place.</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="ri-gift-line services__modal-icon"></i>
+                                        <p>Limited delivery because of fast food.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                </div>
+
+                <!--==========SERVICES 3==========-->
+                <div class="services__content">
+                    <div>
+                        <i class="ri-restaurant-line services__icon"></i>
+                        <h3 class="services__title">Customer Need<br> Restaurant</h3>
+                    </div>
+
+                    <span class="button--flex button--small button--link services__button">
+                        View more 
+                        <i class="ri-arrow-right-line button__icon"></i>
+                    </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">Customer Need <br> Restaurant</h4>
+                                <i class="ri-close-line services__modal-close"></i>
+
+                                <ul class="services__modal-services grid">
+                                    <li class="services__modal-service">
+                                        <i class="ri-nurse-line services__modal-icon"></i>
+                                        <p>I will let you enjoy the best taste.</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="ri-nurse-line services__modal-icon"></i>
+                                        <p>Clean, nutritious, fast.</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="ri-restaurant-2-line services__modal-icon"></i>
+                                        <p>Eye-catching, classy decoration.</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="ri-restaurant-2-line services__modal-icon"></i>
+                                        <p>Fresh, easy to eat, easy to digest, good for health.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                </div>
+
+                <!--==========SERVICES 4==========-->
+                <div class="services__content">
+                    <div>
+                        <i class="ri-vip-crown-2-line services__icon"></i>
+                        <h3 class="services__title">Member <br> Restaurant</h3>
+                    </div>
+
+                    <span class="button--flex button--small button--link services__button">
+                        View more 
+                        <i class="ri-arrow-right-line button__icon"></i>
+                    </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">Member <br> Restaurant</h4>
+                                <i class="ri-close-line services__modal-close"></i>
+
+                                <ul class="services__modal-services grid">
+                                    <li class="services__modal-service">
+                                        <i class="ri-user-line services__modal-icon"></i>
+                                        <p>Many offers, attractive gifts.</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="ri-user-line services__modal-icon"></i>
+                                        <p>VIP dining space, luxurious, private.</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="ri-user-line services__modal-icon"></i>
+                                        <p>There is a private chef serving, live performance.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </section>
+
+                    <!--==========NEWSLETTER=========-->
+        <section class="newsletter section">
+            <div class="newsletter__container container">
+                <div class="newsletter__content grid">
+                    <img src="assets/img/newsletter-sushi.png" alt="newsletter image" class="newsletter__img">
+                
+                    <div class="newsletter__data">
+                        <span class="section__subtitle">Newsletter</span>
+                        <h2 class="section__title">
+                            Subscribe For<br>
+                            Updates
+                        </h2>
+
+                        <form action="" class="newsletter__form">
+                            <input type="email" placeholder="Enter email" class="newsletter__input">
+                        
+                            <button class="button newsletter__button">
+                                subscribe <i class="ri-send-plane-line"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+                <img src="assets/img/spinach-leaf.png" alt="newsletter image" class="newsletter__spinach">
+            </div>
+        </section>
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section__title">Portfolio</h2>
+            <span class="section__subtitle">
+                Several Branches</span>
+        
+            <div class="portfolio__container container swiper mySwiper">
+                <div class="swiper-wrapper">
+                    
+                    <!-- PORTFOLIO1 -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/sushi-restaurant1.png" alt="" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Blue Ribbon Sushi Bar & Grill </h3>
+                            <p class="portfolio__description">Blue Ribbon Sushi Bar & Grill is located at Red Rock Casino Resort & Spa. We offer a full menu of Japanese cuisine including a carefully curated menu of pristine quality sushi and sashimi and Japanese specialties from our hot kitchen.</p>
+                            <a href="https://www.thrillist.com/eat/washington-dc/best-sushi-washington-dc" class="button">
+                                View <i class="ri-arrow-right-line"></i>
+                            </a> 
+                        </div>
+                    </div>
+                    <!-- PORTFOLIO2 -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/sushi-restaurant2.png" alt="" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">The Absolute Best Sushi Restaurants in DC</h3>
+                            <p class="portfolio__description">Washington, DC has no shortage of great sushi restaurants. In fact, some of them are considered the best restaurants in DC, period. From classic rolls and inventive creations for takeout to high-end sushi bars offering sashimi, nigiri, and 
+                                temaki, sushi restaurants in the DC area offer must-have eating experiences that display the serious talent of local chefs who specialize in the art of sushi—some of whom have trained with some of the best sushi chefs in the world like Jiro Ono, Nobuyuki Matsuhisa, and more.</p>
+                            <a href="https://www.thrillist.com/eat/washington-dc/best-sushi-washington-dc" class="button">
+                                View <i class="ri-arrow-right-line"></i>
+                            </a> 
+                        </div>
+                    </div>
+                    <!-- PORTFOLIO3 -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/sushi-restaurant3.png" alt="" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">The Best Sushi in Seattle</h3>
+                            <p class="portfolio__description">DECADES OF STRONG TIES WITH JAPAN, an abundance of great seafood. A puckish guy by the name of Shiro Kashiba. A host of forces built Seattle’s exemplary landscape of sushi restaurants, where you can sit before a chef and submit to a traditionalist 
+                                Edomae-style omakase. Or spend happy hour in the company of a cilantro-flecked tres diablos roll and a yuzu margarita—even summon nigiri via a robot. There’s a time and a place for each of these sushi philosophies, as evidenced by these great spots.</p>
+                            <a href="https://www.seattlemet.com/eat-and-drink/the-best-sushi-in-seattle-japanese-restaurants-bellevue-edmonds" class="button">
+                                View <i class="ri-arrow-right-line"></i>
+                            </a> 
+                        </div>
+                    </div>
+                    <!-- PORTFOLIO4 -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/sushi-restaurant4.png" alt="" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Bamboo Sushi SW</h3>
+                            <p class="portfolio__description">Bamboo Sushi is the first certified sustainable sushi restaurant in the world and a proud purveyor of eclectic Japanese cuisine, located in the heart of the West End in downtown Portland Oregon. We are dedicated to bringing you the freshest fish,
+                                 meats, and produce with the greatest consciousness towards marine stewardship, sustainability, and the environment</p>
+                            <a href="https://www.opentable.ca/bamboo-sushi-sw" class="button">
+                                View <i class="ri-arrow-right-line"></i>
+                            </a> 
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-scrollbar"></div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOOTER -->
+    <footer class="footer">
+        <div class="footer__container container grid">
+            <div>
+                <a href="" class="footer__logo">
+                    <img src="assets/img/logo-sushi.png" alt="logo image">
+                    Sushi
+                </a>
+
+                <p class="footer__description">
+                    Food for the body is not <br>enough.
+                    There must be food <br>for the soul.
+                </p>
+            </div>
+
+            <div class="footer__content">
+                <div>
+                    <h3 class="footer__title">Main Menu</h3>
+                    
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">About</a>
+                        </li>
+                        
+                        <li>
+                            <a href="#" class="footer__link">Menus</a>
+                        </li>
+                        
+                        <li>
+                            <a href="#" class="footer__link">Offer</a>
+                        </li>
+                        
+                        <li>
+                            <a href="#" class="footer__link">Events</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">Information</h3>
+                    
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Contact</a>
+                        </li>
+                        
+                        <li>
+                            <a href="#" class="footer__link">Oder & Returns</a>
+                        </li>
+                        
+                        <li>
+                            <a href="#" class="footer__link">Videos</a>
+                        </li>
+                        
+                        <li>
+                            <a href="#" class="footer__link">Reservation</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">Adderess</h3>
+                    
+                    <ul class="footer__links">
+                        <li class="footer__information">
+                            Av. Hacienda 1234 <br>
+                            Lima 4321, Perú
+                        </li>
+                        
+                        <li class="footer__information">
+                            9AM - 11PM
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">Social Media</h3>
+                    
+                    <ul class="footer__social">
+                        <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                            <i class="ri-facebook-circle-fill"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+
+                        <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+
+            <img src="assets/img/leaf-onion.png" alt="footer image" class="footer__onion">
+            <img src="assets/img/spinach-leaf.png" alt="footer image" class="footer__spinach">
+            <img src="assets/img/japanese-icon-sushi-3d-illustration.png" alt="footer image" class="footer__leaf">
+        </div>
+
+        <div class="footer__info container">
+            <div class="footer__card">
+                <img srcset="assets/img/footer-card-1.png 6x" alt="footer image">
+                <img srcset="assets/img/footer-card-2.1.png 16x" alt="footer image">
+                <img srcset="assets/img/footer-card-3.1.png 9x" alt="footer image">
+                <img srcset="assets/img/footer-card-4.png 5x" alt="footer image">
+            </div>
+
+            <span class="footer__copy">
+                &#169; Copyright Bedimcode. All right reserved
+            </span>
+        </div>
+    </footer>
+
+                      <!-- SCROLL UP -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <script src="assets/js/main.js"></script>
+
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script>
+             var swiper = new Swiper(".mySwiper", {
+        direction: "vertical",
+        slidesPerView: "auto",
+        freeMode: true,
+        scrollbar: {
+          el: ".swiper-scrollbar",
+        },
+        mousewheel: true,
+      });
+    </script>
+</body>
+</html>
